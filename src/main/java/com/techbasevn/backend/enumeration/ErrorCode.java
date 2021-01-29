@@ -2,7 +2,7 @@ package com.techbasevn.backend.enumeration;
 
 public enum ErrorCode {
     USERNAME_NOT_EXIST("error.api.username_not_exist", "Username is not existed"),
-    USERNAME_EXISTED("error.api.username_existed", "Username is not existed"),
+    USERNAME_EXISTED("error.api.username_existed", "Username is existed"),
     USER_NOT_EXIST("error.api.user_not_exist", "User is not existed"),
     LOGIN_REQUEST_NOT_VALID("error.api.login_request_not_valid", "User is not existed"),
     PASSWORD_INVALID("error.api.password_invalid", ""),

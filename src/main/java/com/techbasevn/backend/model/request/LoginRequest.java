@@ -15,4 +15,9 @@ public class LoginRequest {
     @Length(min = 8)
     private String password;
     private Boolean rememberMe = false;
+
+    public LoginRequest(@NotNull String username, @NotNull @Length(min = 8) String password) {
+        this.username = username;
+        this.password = password;
+    }
 }
